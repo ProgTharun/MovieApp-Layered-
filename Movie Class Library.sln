@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Movie Class Library", "Movie Class Library.csproj", "{0313F6F9-A536-457F-9D19-B2B5430BBD41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controller", "Controller", "{A2D63C44-DE06-4565-AA03-E23FE8D6997B}"
+	ProjectSection(SolutionItems) = preProject
+		MovieManager.cs = MovieManager.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{015C504B-5F02-4B10-868E-1FE65D22D22E}"
+	ProjectSection(SolutionItems) = preProject
+		Moviecs.cs = Moviecs.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{AD1D0F57-0884-4918-A2BF-8CDA1CDF748C}"
+	ProjectSection(SolutionItems) = preProject
+		Serialization.cs = Serialization.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExceptionHandling", "ExceptionHandling", "{ABC7F1CE-9AD3-4C8C-8103-47BCB9920FF6}"
+	ProjectSection(SolutionItems) = preProject
+		FindMovieByIdException.cs = FindMovieByIdException.cs
+		FindMovieByNameException.cs = FindMovieByNameException.cs
+		IsEmptyExceptioncs.cs = IsEmptyExceptioncs.cs
+		ListOverFlowException.cs = ListOverFlowException.cs
+		RemoveMoviessException.cs = RemoveMoviessException.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0313F6F9-A536-457F-9D19-B2B5430BBD41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0313F6F9-A536-457F-9D19-B2B5430BBD41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0313F6F9-A536-457F-9D19-B2B5430BBD41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0313F6F9-A536-457F-9D19-B2B5430BBD41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46312E72-BCD0-4348-830E-723C0B67450F}
+	EndGlobalSection
+EndGlobal
